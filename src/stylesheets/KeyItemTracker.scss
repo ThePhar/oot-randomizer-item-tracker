@@ -1,0 +1,14 @@
+@import "./settings";
+
+.key-item-tracker {
+  display: flex;
+  flex-wrap: wrap;
+
+  position: relative;
+  width: calc(48px * 2);
+  height: calc(48px * 3);
+
+  background-color: $base-color-dark;
+  border-left: 8px solid $border-color;
+  border-top: 8px solid $border-color-dark;
+}

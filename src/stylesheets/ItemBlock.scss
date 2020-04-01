@@ -1,22 +1,22 @@
 .item-block {
+  position: relative;
   width: 48px;
   height: 48px;
 
-  background-color: red;
-  background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
 
   .item-block__count {
     font-family: Visitor, monospace;
     font-size: 1.5rem;
-    color: white;
+    line-height: 1rem;
 
     position: absolute;
-    bottom: 0;
-    left: 3px;
-    line-height: 1rem;
+    bottom: 2px;
+    left: 5px;
     height: 1rem;
+
+    color: white;
 
     /* For 1px outline around text */
     text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000;
@@ -101,10 +101,10 @@
 .lift-3 { background-image: url("../resources/images/lift3.png"); }
 .scale-1 { background-image: url("../resources/images/scale1.png"); }
 .scale-2 { background-image: url("../resources/images/scale2.png"); }
-.wallet-1 { background-image: url("../resources/images/wallet.png"); }
-.wallet-2 { background-image: url("../resources/images/wallet1.png"); }
-.wallet-3 { background-image: url("../resources/images/wallet2.png"); }
-.wallet-4 { background-image: url("../resources/images/wallet3.png"); }
+.wallet-0 { background-image: url("../resources/images/wallet.png"); }
+.wallet-1 { background-image: url("../resources/images/wallet1.png"); }
+.wallet-2 { background-image: url("../resources/images/wallet2.png"); }
+.wallet-3 { background-image: url("../resources/images/wallet3.png"); }
 .magic-1 { background-image: url("../resources/images/magic1.png"); }
 .magic-2 { background-image: url("../resources/images/magic2.png"); }
 
@@ -121,8 +121,10 @@
 .deku-shield { background-image: url("../resources/images/shield1.png"); }
 .hylian-shield { background-image: url("../resources/images/shield2.png"); }
 .mirror-shield { background-image: url("../resources/images/shield3.png"); }
+.kokiri-boots { background-image: url("../resources/images/kokiriboots.png"); }
 .iron-boots { background-image: url("../resources/images/ironboots.png"); }
 .hover-boots { background-image: url("../resources/images/hoverboots.png"); }
+.kokiri-tunic { background-image: url("../resources/images/greentunic.png"); }
 .goron-tunic { background-image: url("../resources/images/redtunic.png"); }
 .zora-tunic { background-image: url("../resources/images/bluetunic.png"); }
 

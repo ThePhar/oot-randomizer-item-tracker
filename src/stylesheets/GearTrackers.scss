@@ -1,0 +1,12 @@
+.gear-trackers {
+  display: flex;
+  justify-content: space-between;
+
+  .gear-trackers__sub-category {
+    height: calc(48px * 4 + 16);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

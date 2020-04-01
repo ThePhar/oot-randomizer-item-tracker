@@ -1,0 +1,19 @@
+@import "./settings";
+
+.objective-tracker {
+  display: flex;
+  justify-content: space-between;
+
+  width: calc(48px * 12 + 8px);
+  height: 56px;
+  margin-top: 16px;
+
+
+  .objective-tracker__row {
+    display: flex;
+
+    border-top: 8px solid $border-color-dark;
+    border-left: 8px solid $border-color;
+    background-color: $base-color-dark;
+  }
+}

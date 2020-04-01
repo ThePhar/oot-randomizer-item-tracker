@@ -1,0 +1,15 @@
+@import "./settings";
+
+.song-tracker {
+  display: flex;
+  justify-content: space-between;
+
+  width: calc(48px * 12);
+  height: 48px;
+  margin-top: 16px;
+
+  border-top: 8px solid $border-color-dark;
+  border-left: 8px solid $border-color;
+  background-color: $base-color-dark;
+
+}

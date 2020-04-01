@@ -1,0 +1,14 @@
+@import "./settings";
+
+.equipment-tracker {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  width: calc(48px * 3);
+  height: calc(48px * 4);
+
+  background-color: $base-color-dark;
+  border-left: 8px solid $border-color;
+  border-top: 8px solid $border-color-dark;
+}

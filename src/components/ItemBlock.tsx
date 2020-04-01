@@ -1,7 +1,7 @@
 import React from "react";
 import "../stylesheets/ItemBlock.scss";
 
-interface Props {
+export interface Item {
     /** CSS-Compliant name of the item to be rendered as the background image for this component. */
     itemName: string;
     /** Optional: The current count on the quantity on hand and the maximum allowed to carry for this item. */
@@ -13,7 +13,7 @@ interface Props {
     };
 }
 
-function ItemBlock({itemName, count}: Props): React.ReactElement {
+function ItemBlock({itemName, count}: Item): React.ReactElement {
     let countClassModifier = "";
     if (count) {
         if (count.current === 0) countClassModifier = "item-block__count--empty";
