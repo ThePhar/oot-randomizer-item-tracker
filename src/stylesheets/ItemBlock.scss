@@ -1,0 +1,152 @@
+.item-block {
+  width: 48px;
+  height: 48px;
+
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .item-block__count {
+    font-family: Visitor, monospace;
+    font-size: 1.5rem;
+    color: white;
+
+    position: absolute;
+    bottom: 0;
+    left: 3px;
+    line-height: 1rem;
+    height: 1rem;
+
+    /* For 1px outline around text */
+    text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000;
+  }
+
+  .item-block__count--full { color: lime; }
+  .item-block__count--empty { color: gray; }
+}
+
+// Why does Ocarina of time have so many items??????
+//
+// WHYYYYYYYYY????
+
+/* Row 1 - Inventory Items */
+.stick { background-image: url("../resources/images/stick.png"); }
+.nut { background-image: url("../resources/images/nut.png"); }
+.bomb { background-image: url("../resources/images/bomb.png"); }
+.bow { background-image: url("../resources/images/bow.png"); }
+.fire-arrow { background-image: url("../resources/images/firearrow.png"); }
+.din { background-image: url("../resources/images/din.png"); }
+
+/* Row 2 - Inventory Items */
+.slingshot { background-image: url("../resources/images/slingshot.png"); }
+.ocarina-fairy { background-image: url("../resources/images/fairyocarina.png"); }
+.ocarina-time { background-image: url("../resources/images/ocarina.png"); }
+.bombchu { background-image: url("../resources/images/bombchu.png"); }
+.hookshot { background-image: url("../resources/images/hookshot.png"); }
+.longshot { background-image: url("../resources/images/longshot.png"); }
+.ice-arrow { background-image: url("../resources/images/icearrow.png"); }
+.farore { background-image: url("../resources/images/farore.png"); }
+
+/* Row 3 - Inventory Items */
+.boomerang { background-image: url("../resources/images/boomerang.png"); }
+.lens { background-image: url("../resources/images/lens.png"); }
+.bean { background-image: url("../resources/images/bean.png"); }
+.hammer { background-image: url("../resources/images/hammer.png"); }
+.light-arrow { background-image: url("../resources/images/lightarrow.png"); }
+.nayru { background-image: url("../resources/images/nayru.png"); }
+
+/* Bottles */
+.bottle-empty { background-image: url("../resources/images/bottle.png"); }
+.bottle-letter { background-image: url("../resources/images/bottle_letter.png"); }
+.bottle-red { background-image: url("../resources/images/bottle_red.png"); }
+.bottle-green { background-image: url("../resources/images/bottle_green.png"); }
+.bottle-blue { background-image: url("../resources/images/bottle_blue.png"); }
+.bottle-fairy { background-image: url("../resources/images/bottle_fairy.png"); }
+.bottle-fish { background-image: url("../resources/images/bottle_fish.png"); }
+.bottle-bugs { background-image: url("../resources/images/bottle_bugs.png"); }
+.bottle-milk { background-image: url("../resources/images/bottle_milk.png"); }
+.bottle-milk-half { background-image: url("../resources/images/bottle_halfmilk.png"); }
+.bottle-poe { background-image: url("../resources/images/bottle_poe.png"); }
+.bottle-big-poe { background-image: url("../resources/images/bottle_bigpoe.png"); }
+.bottle-fire { background-image: url("../resources/images/bottle_fire.png"); }
+
+/* Adult Trading Sequence */
+.pocket-egg { background-image: url("../resources/images/egg.png"); }
+.pocket-cucco { background-image: url("../resources/images/cucco.png"); }
+.cojiro { background-image: url("../resources/images/cojiro.png"); }
+.mushroom { background-image: url("../resources/images/mushroom.png"); }
+.medicine { background-image: url("../resources/images/medicine.png"); }
+.saw { background-image: url("../resources/images/saw.png"); }
+.broken-sword { background-image: url("../resources/images/broken_sword.png"); }
+.prescription { background-image: url("../resources/images/perscription.png"); }
+.frog { background-image: url("../resources/images/frog.png"); }
+.eye-drops { background-image: url("../resources/images/eyedrops.png"); }
+.claim { background-image: url("../resources/images/claim.png"); }
+
+/* Child Trading Sequence */
+.weird-egg { background-image: url("../resources/images/egg.png"); }
+.cucco { background-image: url("../resources/images/cucco.png"); }
+.letter { background-image: url("../resources/images/letter.png"); }
+.sold-out { background-image: url("../resources/images/sold_out.png"); }
+.mask-keaton { background-image: url("../resources/images/keaton.png"); }
+.mask-skull { background-image: url("../resources/images/skull.png"); }
+.mask-spooky { background-image: url("../resources/images/spooky.png"); }
+.mask-bunny { background-image: url("../resources/images/bunny.png"); }
+.mask-truth { background-image: url("../resources/images/truth.png"); }
+
+/* Progressives */
+.lift-1 { background-image: url("../resources/images/lift1.png"); }
+.lift-2 { background-image: url("../resources/images/lift2.png"); }
+.lift-3 { background-image: url("../resources/images/lift3.png"); }
+.scale-1 { background-image: url("../resources/images/scale1.png"); }
+.scale-2 { background-image: url("../resources/images/scale2.png"); }
+.wallet-1 { background-image: url("../resources/images/wallet.png"); }
+.wallet-2 { background-image: url("../resources/images/wallet1.png"); }
+.wallet-3 { background-image: url("../resources/images/wallet2.png"); }
+.wallet-4 { background-image: url("../resources/images/wallet3.png"); }
+.magic-1 { background-image: url("../resources/images/magic1.png"); }
+.magic-2 { background-image: url("../resources/images/magic2.png"); }
+
+/* Key Items */
+.gerudo-card { background-image: url("../resources/images/gerudocard.png"); }
+.stone { background-image: url("../resources/images/agony.png"); }
+.skulltula-token { background-image: url("../resources/images/skulltula_token.png"); }
+.triforce { background-image: url("../resources/images/triforce_piece.png"); }
+
+/* Equipment */
+.kokiri-sword { background-image: url("../resources/images/sword1.png"); }
+.master-sword { background-image: url("../resources/images/sword2.png"); }
+.big-sword { background-image: url("../resources/images/sword3.png"); }
+.deku-shield { background-image: url("../resources/images/shield1.png"); }
+.hylian-shield { background-image: url("../resources/images/shield2.png"); }
+.mirror-shield { background-image: url("../resources/images/shield3.png"); }
+.iron-boots { background-image: url("../resources/images/ironboots.png"); }
+.hover-boots { background-image: url("../resources/images/hoverboots.png"); }
+.goron-tunic { background-image: url("../resources/images/redtunic.png"); }
+.zora-tunic { background-image: url("../resources/images/bluetunic.png"); }
+
+/* Songs */
+.song-zelda { background-image: url("../resources/images/zelda_colored.png"); }
+.song-epona { background-image: url("../resources/images/epona_colored.png"); }
+.song-saria { background-image: url("../resources/images/saria_colored.png"); }
+.song-sun { background-image: url("../resources/images/sun_colored.png"); }
+.song-time { background-image: url("../resources/images/time_colored.png"); }
+.song-storm { background-image: url("../resources/images/storms_colored.png"); }
+.song-min { background-image: url("../resources/images/minuet.png"); }
+.song-bol { background-image: url("../resources/images/bolero.png"); }
+.song-ser { background-image: url("../resources/images/serenade.png"); }
+.song-req { background-image: url("../resources/images/requiem.png"); }
+.song-noc { background-image: url("../resources/images/nocturne.png"); }
+.song-pre { background-image: url("../resources/images/prelude.png"); }
+
+/* Stones and Medallions */
+.emerald { background-image: url("../resources/images/emerald.png"); }
+.ruby { background-image: url("../resources/images/ruby.png"); }
+.sapphire { background-image: url("../resources/images/sapphire.png"); }
+.light-medallion { background-image: url("../resources/images/lightmedallion.png"); }
+.forest-medallion { background-image: url("../resources/images/forestmedallion.png"); }
+.fire-medallion { background-image: url("../resources/images/firemedallion.png"); }
+.water-medallion { background-image: url("../resources/images/watermedallion.png"); }
+.shadow-medallion { background-image: url("../resources/images/shadowmedallion.png"); }
+.spirit-medallion { background-image: url("../resources/images/spiritmedallion.png"); }

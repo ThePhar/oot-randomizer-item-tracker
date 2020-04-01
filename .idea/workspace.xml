@@ -1,25 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29b4f96-ac59-4ad7-a3df-ef7c78019fdf" name="Default Changelist" comment="" />
+    <list default="true" id="a29b4f96-ac59-4ad7-a3df-ef7c78019fdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/test-components/TestItemRendering.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/fonts/Chiaro.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/fonts/HyliaSerif.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/fonts/Visitor.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/HC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/HC_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/HP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/HP_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/agony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bluetunic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bolero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bombchu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/boomerang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/boots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/boss_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_bigpoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_bugs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_fairy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_fish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_halfmilk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_letter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_milk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_poe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bottle_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/broken_sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/bunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_brown_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_brown_compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_brown_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_brown_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_brown_small_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_golden_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/chest_golden_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/claim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/cojiro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/cow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/crossed_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/cucco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/deku_scrub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/deku_scrub_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/din.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/emerald.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_botw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_deku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_dodongo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_gtg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_ice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_jabu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_spirit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_dungeon_water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_castle_storms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_comp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_cow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_dampe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_fairy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_field_kak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_field_valley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_generic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_kak_bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_scrub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_tektite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_theater.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_grotto_wolfos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_bowling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_fairy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_fishing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_hag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_lab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_masks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_pot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_shoot_adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_shoot_child.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_skull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_talon_adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_talon_child.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_tot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_house_windmill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_bridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_col.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_ct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_cte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_dmc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_dmt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_gc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_gv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_gy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_hf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_kak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_kf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_lh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_llr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_lw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_sfm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_wl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_zf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/entrance_overworld_zr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/epona_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/eyedrops.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/fairyocarina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/farore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/firearrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/firemedallion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/forestmedallion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/frog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/gerudocard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/gerudofortress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/gerudosymbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/gossip_stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/greentunic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/grey_note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/grey_note_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/hammer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/hookshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/hookshotd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/hoverboots-disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/hoverboots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/icearrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/icetrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/ironboots-disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/ironboots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/keaton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/king_zora.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/kokiriboots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_botw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_botw_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_botw_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_deku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_deku_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_deku_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_dodongo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_dodongo_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_dodongo_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_fire_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_fire_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_forest_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_forest_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_free.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gc_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gc_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gtg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gtg_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_gtg_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_ice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_ice_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_ice_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_jabu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_jabu_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_jabu_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_shadow_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_shadow_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_spirit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_spirit_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_spirit_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_water_mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/label_water_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lacs_medallions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/letter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lift1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lift2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lift3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/lightmedallion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_child_deadhand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_crater_bean_poh_with_hovers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_dc_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_fewer_tunic_requirements.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_forest_vines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_grottos_without_agony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_man_on_roof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_rusted_switches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/logic_windmill_poh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/longshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/magic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/magic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/medicine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/minuet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/mushroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/nayru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/nocturne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/nocturne_medallions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/nut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/ocarina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_30_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_40_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_50_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_child.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_logic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overlay_scarecrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/overworld_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/perscription.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/prelude.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/redtunic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/requiem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/ruby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/rupee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/sapphire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/saria_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/saw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/scale1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/scale2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/scarecrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/serenade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_age_adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_age_child.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_bridge_100gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_bridge_dungeons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_bridge_medallions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_bridge_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_bridge_stones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_bridge_vanilla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_cowsanity_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_cowsanity_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_damage_double.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_damage_half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_damage_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_damage_ohko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_damage_quadruple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_door_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_door_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_entrance_dungeons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_entrance_indoors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_entrance_overworld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_forest_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_forest_deku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_forest_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_fountain_adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_fountain_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_fountain_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_gerudo_fortress_fast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_gerudo_fortress_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_gerudo_fortress_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_hints_agony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_hints_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_hints_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_hints_truth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_lens_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_lens_chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_lens_wasteland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_logic_chus_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_logic_chus_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_plant_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_plant_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_scrub_shuffle_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_scrub_shuffle_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shopsanity_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shopsanity_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_beans_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_beans_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_card_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_card_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_egg_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_egg_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_ocarinas_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_ocarinas_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_sword1_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_shuffle_sword1_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_skulltulas_sun_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_skulltulas_sun_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_tokens_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_tokens_dungeons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_tokens_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_tokens_overworld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/setting_trials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/shadowmedallion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/shield1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/shield2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/shield3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/skulltula_token.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/slingshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/small_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/small_key_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/sold_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/spiritmedallion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/spooky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/stick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/stones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/storms_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/sun_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/sword1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/sword2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/sword3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/time_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/triforce_piece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/truth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/tunics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/wallet1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/wallet2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/wallet3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/watermedallion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/zelda_colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stylesheets/ItemBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1ZuNQDgXReaq9saSRBiIY6Eq8qu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
+    <property name="ts.external.directory.path" value="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -31,11 +425,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585685000779</updated>
-      <workItem from="1585685002683" duration="287000" />
+      <workItem from="1585685002683" duration="10573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="183" key="#ESLint" timestamp="1585685902994">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="872" y="183" key="#ESLint/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585685902994" />
+    <state x="734" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585688385400">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="734" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585688385400" />
+    <state x="1010" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585686048273">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1010" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585686048273" />
+    <state width="828" height="922" key="GridCell.Tab.0.bottom" timestamp="1585689180924">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="828" height="922" key="GridCell.Tab.0.bottom/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585689180924" />
+    <state width="828" height="922" key="GridCell.Tab.0.center" timestamp="1585689180923">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="828" height="922" key="GridCell.Tab.0.center/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585689180923" />
+    <state width="828" height="922" key="GridCell.Tab.0.left" timestamp="1585689180923">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="828" height="922" key="GridCell.Tab.0.left/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585689180923" />
+    <state width="828" height="922" key="GridCell.Tab.0.right" timestamp="1585689180923">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="828" height="922" key="GridCell.Tab.0.right/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585689180923" />
+    <state x="781" y="167" key="SettingsEditor" timestamp="1585689977531">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="781" y="167" key="SettingsEditor/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585689977531" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/tests/components/App.test.tsx</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
