@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b4f96-ac59-4ad7-a3df-ef7c78019fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serverlib/status.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EquipmentTracker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GearTrackers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InventoryTracker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/KeyItemTracker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ObjectiveTracker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProgressiveTracker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SongTracker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/fonts/ZeldaDX.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/EquipmentTracker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/GearTrackers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/InventoryTracker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/KeyItemTracker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/ObjectiveTracker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/ProgressiveTracker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/SongTracker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lua/data-emitter.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test-components/TestItemRendering.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test-components/TestItemRendering.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/ItemBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/ItemBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +20,7 @@
         <option value="SCSS File" />
         <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="NewLua" />
       </list>
     </option>
   </component>
@@ -115,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585685000779</updated>
       <workItem from="1585685002683" duration="41456000" />
-      <workItem from="1585781918642" duration="525000" />
+      <workItem from="1585781918642" duration="5825000" />
     </task>
     <servers />
   </component>
@@ -162,9 +138,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="921" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585722680306" />
-    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1585725305817">
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1585782876796">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/2560.447.1366.738/3926.0.1920.1050@0.0.2560.1050" timestamp="1585782876796" />
     <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585725305817" />
   </component>
   <component name="XDebuggerManager">
