@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b4f96-ac59-4ad7-a3df-ef7c78019fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lua/data-emitter.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lua/data-eventlistener.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/lib/print.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oot-multiworld-overlay-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oot-multiworld-overlay-generator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/data-emitter.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/data-emitter.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +63,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\src\components" />
-      <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\src\stylesheets" />
       <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\lua" />
+      <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\src\components" />
+      <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator" />
     </key>
   </component>
   <component name="RunManager">
@@ -91,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585685000779</updated>
       <workItem from="1585685002683" duration="41456000" />
-      <workItem from="1585781918642" duration="5825000" />
+      <workItem from="1585781918642" duration="12343000" />
     </task>
     <servers />
   </component>
@@ -102,9 +111,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="183" key="#ESLint" timestamp="1585723567287">
+    <state x="872" y="183" key="#ESLint" timestamp="1585788377018">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
+    <state x="872" y="183" key="#ESLint/0.0.2560.1050/2560.447.1366.738/3926.0.1920.1050@0.0.2560.1050" timestamp="1585788377018" />
     <state x="872" y="183" key="#ESLint/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585723567287" />
     <state x="734" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585688385400">
       <screen x="0" y="0" width="2560" height="1050" />
@@ -130,9 +140,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="827" height="922" key="GridCell.Tab.0.right/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585709900701" />
-    <state x="781" y="167" key="SettingsEditor" timestamp="1585705114540">
+    <state x="781" y="167" key="SettingsEditor" timestamp="1585790107621">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
+    <state x="781" y="167" key="SettingsEditor/0.0.2560.1050/2560.447.1366.738/3926.0.1920.1050@0.0.2560.1050" timestamp="1585790107621" />
     <state x="781" y="167" key="SettingsEditor/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585705114540" />
     <state x="921" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585722680306">
       <screen x="0" y="0" width="2560" height="1050" />

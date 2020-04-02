@@ -11,9 +11,7 @@ module.exports = {
             jsx: true,
         },
     },
-    rules: {
-
-    },
+    rules: {},
     settings: {
         react: {
             version: "detect",
