@@ -58,10 +58,6 @@ function create_ram_watcher_specific(variable, address, watch_val, read_func)
     return function()
         local value = read_func(address)
 
-        console.clear()
-        print(sram[variable])
-        print(watch_val .. ": " .. value)
-
         if (sram[variable] ~= watch_val and value == watch_val) then
             sram[variable] = watch_val
             trigger = true

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b4f96-ac59-4ad7-a3df-ef7c78019fdf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/data-emitter.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/data-emitter.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/data-eventlistener.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/data-eventlistener.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585685000779</updated>
       <workItem from="1585685002683" duration="41456000" />
-      <workItem from="1585781918642" duration="28813000" />
+      <workItem from="1585781918642" duration="29072000" />
     </task>
     <servers />
   </component>
