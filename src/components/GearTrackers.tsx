@@ -10,9 +10,11 @@ interface Gear {
     items: Array<Item | null>;
     keyItems: KeyItems;
     equipment: Equipment;
+    rupees: number;
+    frozen: boolean;
 }
 
-function GearTrackers({ items, keyItems, equipment }: Gear): React.ReactElement {
+function GearTrackers({ rupees = 0, frozen, items, keyItems, equipment }: Gear): React.ReactElement {
     return (
         <div className="gear-trackers">
             <div className="gear-trackers__sub-category">
@@ -29,12 +31,15 @@ function GearTrackers({ items, keyItems, equipment }: Gear): React.ReactElement 
                         textShadow: "-1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000",
                         fontSize: 25,
                         display: "flex",
-                        justifyContent: "right",
+                        justifyContent: "center",
                         alignItems: "center",
+                        textAlign: "center",
                         paddingRight: 4,
                     }}
                 >
-                    N/A
+                    {
+                        !frozen ? rupees : <span style={{color: "red"}}>FOOL!</span>
+                    }
                 </div>
                 <KeyItemTracker {...keyItems} />
             </div>

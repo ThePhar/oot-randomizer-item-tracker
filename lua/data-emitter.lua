@@ -4,18 +4,18 @@ local ltn12         = require("ltn12")
 -- Set the timeout for waiting for a connection to the server.
 -- WARNING: Setting this too high noticiably freeze the emulator until it times out if it loses connection.
 --          Setting this too low may prevent the data from uploading to the server as it'd time out before connecting.
-http.TIMEOUT = 0.1
+http.TIMEOUT = 0.5
 
 local sram = {}
 local trigger = false
 
 -- Function for sending the HTTP POST request.
-function send_data(data)
+function send_data(data, endpoint)
     local request_body = data
     local response_body = {}
 
     local res, code, response_headers = http.request {
-        url = "http://localhost:8080/data",
+        url = "http://localhost:9876/" .. endpoint,
         method = "POST",
         headers = {
             ["Content-Type"] = "application/json",
@@ -24,10 +24,7 @@ function send_data(data)
         source = ltn12.source.string(request_body),
         sink = ltn12.sink.table(response_body)
     }
-
-
 end
--- Function for converting raw bytes to JSON array of numbers.
 function jsonify_save_data(data)
     local json = ""
     for k, v in pairs(data) do
@@ -68,13 +65,26 @@ function create_ram_watcher_specific(variable, address, watch_val, read_func)
         end
     end
 end
+-- Function to check inventory items.
+function check_inventory()
+    local inventory_address = 0x11A644
+
+    for i = 0, 0x17 do
+        local value = mainmemory.read_u8(inventory_address + i)
+
+        if (value ~= sram["slot_" .. i]) then
+            sram["slot_" .. i] = value
+            trigger = true
+        end
+    end
+end
 -- Function for checking for memory updates.
 function event_update()
     -- Check and update all data variables being watched.
-    --create_ram_watcher('x'           , 0x1DAA54, mainmemory.read_u32_be)()
-    --create_ram_watcher('y'           , 0x1DAA58, mainmemory.read_u32_be)()
-    --create_ram_watcher('z'           , 0x1DAA5C, mainmemory.read_u32_be)()
     create_ram_watcher_specific('linkState', 0x1DB09C, 0x04000000, mainmemory.read_u32_be)()
+    --create_ram_watcher('x', 0x1DAA54, mainmemory.read_u32_be)()
+    --create_ram_watcher('y', 0x1DAA58, mainmemory.read_u32_be)()
+    --create_ram_watcher('z', 0x1DAA5C, mainmemory.read_u32_be)()
     create_ram_watcher('health'      , 0x11A600, mainmemory.read_u16_be)()
     create_ram_watcher('maxHealth'   , 0x11A5FE, mainmemory.read_u16_be)()
     create_ram_watcher('rupees'      , 0x11A604, mainmemory.read_u16_be)()
@@ -93,6 +103,17 @@ function event_update()
     create_ram_watcher('statusByte2' , 0x11A676, mainmemory.read_u8)()
     create_ram_watcher('statusByte3' , 0x11A677, mainmemory.read_u8)()
 
+    -- Watch for item quanity changes.
+    create_ram_watcher('countStick'   , 0x11A65C, mainmemory.read_u8)()
+    create_ram_watcher('countNut'     , 0x11A65D, mainmemory.read_u8)()
+    create_ram_watcher('countBomb'    , 0x11A65E, mainmemory.read_u8)()
+    create_ram_watcher('countArrow'   , 0x11A65F, mainmemory.read_u8)()
+    create_ram_watcher('countBombchu' , 0x11A664, mainmemory.read_u8)()
+    create_ram_watcher('countBullet'  , 0x11A662, mainmemory.read_u8)()
+    create_ram_watcher('countBean'    , 0x11A66A, mainmemory.read_u8)()
+
+    check_inventory()
+
     -- If any of these variables have changed, call for an update.
     if trigger then
         trigger = false
@@ -102,7 +123,7 @@ end
 
 while true do
     if event_update() then
-        send_data(jsonify_save_data(sram))
+        send_data(jsonify_save_data(sram), "data")
     end
 
     emu.frameadvance()
