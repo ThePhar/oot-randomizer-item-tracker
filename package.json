@@ -3,6 +3,19 @@
   "version": "0.7.0",
   "description": "An automatic item tracker to work with BizHawk for Ocarina of Time.",
   "private": true,
+  "author": "Zach Parks <zach@alliware.com",
+  "build": {
+    "appId": "com.alliware.oot-randomizer-item-tracker",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*",
+      "package.json",
+      "index.js"
+    ],
+    "directories":{
+      "buildResources": "assets"
+    }
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -21,14 +34,15 @@
     "typescript": "^3.7.5"
   },
   "homepage": "./",
-  "main": "./index.js",
+  "main": "./public/electron.js",
   "scripts": {
     "electron": "electron .",
     "electron:dev": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-pack": "electron-builder"
   },
   "eslintConfig": {
     "extends": "react-app"

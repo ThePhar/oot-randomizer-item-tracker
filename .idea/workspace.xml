@@ -2,21 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b4f96-ac59-4ad7-a3df-ef7c78019fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Phar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/builder-effective-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/LICENSE.electron.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/LICENSES.chromium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/chrome_100_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/chrome_200_percent.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/d3dcompiler_47.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/ffmpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/icudtl.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/am.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ar.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/bg.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/bn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ca.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/cs.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/da.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/de.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/el.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/en-GB.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/en-US.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/es-419.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/es.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/et.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/fa.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/fi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/fil.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/fr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/gu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/he.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/hi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/hr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/hu.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/id.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/it.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ja.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/kn.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ko.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/lt.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/lv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ml.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/mr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ms.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/nb.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/nl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/pl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/pt-BR.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/pt-PT.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ro.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ru.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/sk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/sl.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/sr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/sv.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/sw.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/ta.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/te.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/th.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/tr.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/uk.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/vi.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/zh-CN.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/locales/zh-TW.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/oot-randomizer-item-tracker.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/resources.pak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/resources/app.asar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/snapshot_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/swiftshader/libEGL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/swiftshader/libGLESv2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/v8_context_snapshot.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/vk_swiftshader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/win-unpacked/vk_swiftshader_icd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/data-emitter.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/data-emitter.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/electron.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/lib/print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverlib/status.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GearTrackers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GearTrackers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +138,7 @@
       <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\public" />
       <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\lua" />
       <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator\src\components" />
       <recent name="C:\Users\Phar\WebstormProjects\oot-multiworld-overlay-generator" />
@@ -104,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585685000779</updated>
       <workItem from="1585685002683" duration="41456000" />
-      <workItem from="1585781918642" duration="45995000" />
+      <workItem from="1585781918642" duration="47411000" />
     </task>
     <servers />
   </component>
@@ -153,10 +215,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="921" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1050/3926.0.1920.1050/2560.447.1366.738@0.0.2560.1050" timestamp="1585722680306" />
-    <state x="936" y="243" key="run.anything.popup" timestamp="1585804582980">
+    <state x="936" y="243" key="run.anything.popup" timestamp="1585882021237">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="936" y="243" key="run.anything.popup/0.0.2560.1050/2560.447.1366.738/3926.0.1920.1050@0.0.2560.1050" timestamp="1585804582980" />
+    <state x="936" y="243" key="run.anything.popup/0.0.2560.1050/2560.447.1366.738/3926.0.1920.1050@0.0.2560.1050" timestamp="1585882021237" />
     <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1585861885326">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
